@@ -1,0 +1,144 @@
+.avatar {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.avatar .name {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.avatar .name p,
+.avatar .name h4 {
+  margin: 0;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  margin-top: 3px;
+  display: flex;
+  padding-left: 40px;
+}
+.logo h3 {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.sidebar-icon {
+  width: 8px;
+  height: 34px;
+  border-radius: 0 10px 10px 0;
+  background-color: transparent;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul li:hover .sidebar-icon {
+  background-color: #5d91f9 !important;
+}
+
+ul li:hover .icon {
+  color: #5d91f9 !important;
+}
+
+ul li .sidebar-text {
+  padding-left: 30px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.active .sidebar-icon {
+  background-color: #5d91f9 !important;
+}
+
+.active .icon {
+  color: #5d91f9 !important;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .name h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header .action {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.filter {
+  display: flex;
+  border: 1px solid rgb(236, 236, 236);
+  background-color: #fbfdff;
+  border-radius: 10px;
+  padding: 20px;
+  column-gap: 12px;
+  margin-top: 15px;
+}
+.analytics-container {
+  display: flex;
+  column-gap: 12px;
+  margin-top: 15px;
+}
+
+.analytics-control {
+  border: 1px solid rgb(236, 236, 236);
+  background-color: #fbfdff;
+  border-radius: 10px;
+  height: 400px;
+  width: 50%;
+}
+
+.analytics-control .analytics-title {
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding: 10px;
+  display: flex;
+  height: 50px;
+  flex-direction: column;
+}
+
+.analytics-control .graph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-input {
+  display: flex;
+  column-gap: 10px;
+}
+
+.filter-input input {
+  width: 200px;
+}
+
+.filter-input .ant-select {
+  width: 150px;
+}
+
+.mobile-header{
+  display: none;
+}
